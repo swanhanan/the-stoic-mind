@@ -12,6 +12,7 @@ body{
   width: 100%;
   height:100vh;
   position:relative;
+  flex-grow: 1;
 
 }
 .maincontainer::before{
@@ -40,6 +41,12 @@ h2{
   font-style: italic;
   font-weight: 100;
 }
+h3{
+  color: #5c4f35;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 
 .generatequote{
   margin-top: 4rem;
@@ -49,9 +56,22 @@ h2{
   font-weight: bold;
   font-size: 1.5rem;
   color: #EBE3D5;
-  background-color: #776B5D;
+  background-color: #756a5d;
 }
 #quote-image{
   width: 550px;
   height:300px;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  color:darkgray ;
+  background-color: #756a5d;
+  font-family: sans-serif italic;
+  font-size: 0.6rem;
+  width: 100%;
+}
+p {
+  display: inline;
 }
